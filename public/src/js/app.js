@@ -29,7 +29,7 @@ function displayConfirmNotification() {
     var options = {
       body: 'You successfully subscribed to our Notification service!',
       icon: '/src/images/icons/app-icon-96x96.png',
-      image: '/src/images/sf-boat.jpg',
+      image: '/src/images/house.jpg',
       dir: 'ltr',
       lang: 'en-GB', // BCP 47,
       vibrate: [100, 50, 200],

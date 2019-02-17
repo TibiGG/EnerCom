@@ -53,7 +53,7 @@ function onSaveButtonClicked(event) {
     caches.open('user-requested')
       .then(function(cache) {
         cache.add('https://httpbin.org/get');
-        cache.add('/src/images/sf-boat.jpg');
+        cache.add('/src/images/house.jpg');
       });
   }
 }
@@ -135,7 +135,7 @@ function sendData() {
       id: new Date().toISOString(),
       title: titleInput.value,
       location: locationInput.value,
-      image: 'https://firebasestorage.googleapis.com/v0/b/pwagram-e1c4c.appspot.com/o/sf-boat.jpg?alt=media&token=021dd144-e300-452d-ac49-9984418cfa49'
+      image: 'https://firebasestorage.googleapis.com/v0/b/pwagram-e1c4c.appspot.com/o/Green.png?alt=media&token=934468ba-e432-461b-ba27-e0dcb3205491'
     })
   })
     .then(function(res) {
